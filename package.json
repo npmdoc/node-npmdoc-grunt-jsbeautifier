@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"grunt-jsbeautifier",
+    "devDependencies": {
+        "grunt-jsbeautifier": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-grunt-jsbeautifier",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-grunt-jsbeautifier"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
