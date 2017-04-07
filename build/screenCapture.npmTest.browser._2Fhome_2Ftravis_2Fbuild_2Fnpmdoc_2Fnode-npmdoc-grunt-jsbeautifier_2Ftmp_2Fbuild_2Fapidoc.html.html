@@ -1,0 +1,348 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/vkadam/grunt-jsbeautifier">grunt-jsbeautifier (v0.2.13)</a>
+</h1>
+<h4>jsbeautifier.org for grunt</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-jsbeautifier">module grunt-jsbeautifier</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-jsbeautifier.jsbeautifier">
+            function <span class="apidocSignatureSpan">grunt-jsbeautifier.</span>jsbeautifier
+            <span class="apidocSignatureSpan">(task)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">grunt-jsbeautifier.</span>jsbeautifier.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-jsbeautifier.jsbeautifier">module grunt-jsbeautifier.jsbeautifier</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.jsbeautifier">
+            function <span class="apidocSignatureSpan">grunt-jsbeautifier.</span>jsbeautifier
+            <span class="apidocSignatureSpan">(task)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.registerWithGrunt">
+            function <span class="apidocSignatureSpan">grunt-jsbeautifier.jsbeautifier.</span>registerWithGrunt
+            <span class="apidocSignatureSpan">(grunt)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">grunt-jsbeautifier.jsbeautifier.</span>DEFAULT_OPTIONS</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.grunt-jsbeautifier.jsbeautifier.prototype">module grunt-jsbeautifier.jsbeautifier.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.prototype.run">
+            function <span class="apidocSignatureSpan">grunt-jsbeautifier.jsbeautifier.prototype.</span>run
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.grunt-jsbeautifier" id="apidoc.module.grunt-jsbeautifier">module grunt-jsbeautifier</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-jsbeautifier.jsbeautifier" id="apidoc.element.grunt-jsbeautifier.jsbeautifier">
+        function <span class="apidocSignatureSpan">grunt-jsbeautifier.</span>jsbeautifier
+        <span class="apidocSignatureSpan">(task)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jsbeautifier = function (task) {
+    // Store reference to original task
+    this.task = task;
+    var args = {};
+
+    task.args.forEach(function(item, index) {
+        if (index % 2 === 0) {
+            args[item] = task.args[index + 1];
+        }
+    });
+    this.args = args;
+
+    // Merge task options with defaults
+    this.options = task.options(JsBeautifierTask.DEFAULT_OPTIONS);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.grunt-jsbeautifier.jsbeautifier" id="apidoc.module.grunt-jsbeautifier.jsbeautifier">module grunt-jsbeautifier.jsbeautifier</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.jsbeautifier" id="apidoc.element.grunt-jsbeautifier.jsbeautifier.jsbeautifier">
+        function <span class="apidocSignatureSpan">grunt-jsbeautifier.</span>jsbeautifier
+        <span class="apidocSignatureSpan">(task)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jsbeautifier = function (task) {
+    // Store reference to original task
+    this.task = task;
+    var args = {};
+
+    task.args.forEach(function(item, index) {
+        if (index % 2 === 0) {
+            args[item] = task.args[index + 1];
+        }
+    });
+    this.args = args;
+
+    // Merge task options with defaults
+    this.options = task.options(JsBeautifierTask.DEFAULT_OPTIONS);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.registerWithGrunt" id="apidoc.element.grunt-jsbeautifier.jsbeautifier.registerWithGrunt">
+        function <span class="apidocSignatureSpan">grunt-jsbeautifier.jsbeautifier.</span>registerWithGrunt
+        <span class="apidocSignatureSpan">(grunt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">registerWithGrunt = function (grunt) {
+    grunt.registerMultiTask("jsbeautifier", "jsbeautifier.org for grunt", function() {
+        var task = new JsBeautifierTask(this);
+        task.run();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.grunt-jsbeautifier.jsbeautifier.prototype" id="apidoc.module.grunt-jsbeautifier.jsbeautifier.prototype">module grunt-jsbeautifier.jsbeautifier.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.grunt-jsbeautifier.jsbeautifier.prototype.run" id="apidoc.element.grunt-jsbeautifier.jsbeautifier.prototype.run">
+        function <span class="apidocSignatureSpan">grunt-jsbeautifier.jsbeautifier.prototype.</span>run
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function () {
+    var options = this.options,
+        args = this.args;
+
+    var fileCount = 0,
+        changedFileCount = 0,
+        unVerifiedFiles = [];
+
+    function verifyActionHandler(src) {
+        unVerifiedFiles.push(src);
+    }
+
+    function verifyAndWriteActionHandler(src, result) {
+        grunt.verbose.writeln(options.dest + src);
+        grunt.file.write(options.dest + src, result);
+        changedFileCount++;
+    }
+
+    function convertCamelCaseToUnderScore(config) {
+        var underscoreKey;
+        _.forEach([config.js, config.css, config.html], function(conf) {
+            _.forEach(conf, function(value, key) {
+                underscoreKey = stringUtils.underscored(key);
+                if ("fileTypes" !== key &amp;&amp; key !== underscoreKey) {
+                    conf[underscoreKey] = value;
+                    delete conf[key];
+                }
+            });
+        });
+    }
+
+    function getConfig() {
+        var config,
+            rcFile = require("rc")("jsbeautifier", {});
+
+        if (options.config || !_.isEqual(rcFile, {})) {
+            var baseConfig = options.config ? grunt.file.readJSON(path.resolve(options.config)) : rcFile;
+            config = {
+                js: {},
+                css: {},
+                html: {}
+            };
+            if (!baseConfig.js &amp;&amp; !baseConfig.css &amp;&amp; !baseConfig.html) {
+                _.extend(config.js, baseConfig);
+                _.extend(config.css, baseConfig);
+                _.extend(config.html, baseConfig);
+            }
+            _.extend(config.js, baseConfig.js);
+            _.extend(config.css, baseConfig.css);
+            _.extend(config.html, baseConfig.html);
+            _.extend(config.js, options.js);
+            _.extend(config.css, options.css);
+            _.extend(config.html, options.html);
+        } else {
+            config = options;
+        }
+        config.js.fileTypes = _.union(config.js.fileTypes, [".js", ".json", '.es6']);
+        config.css.fileTypes = _.union(config.css.fileTypes, [".css"]);
+        config.html.fileTypes = _.union(config.html.fileTypes, [".html"]);
+
+        grunt.verbose.writeln("Beautify config before converting camelcase to underscore: " + JSON.stringify(config));
+
+        convertCamelCaseToUnderScore(config);
+
+        grunt.verbose.writeln("Using beautify config: " + JSON.stringify(config));
+        return config;
+    }
+
+    var sourceFiles = this.task.files,
+        done = this.task.async();
+    if ((sourceFiles &amp;&amp; sourceFiles.length &gt; 0) || !_.isEmpty(args.file)) {
+        if (!_.isEmpty(options.dest)) {
+            grunt.verbose.writeln("All beautified files will be stored under \"" + options.dest + "\" folder");
+            if (!stringUtils.endsWith(options.dest, "/")) {
+                options.dest += "/";
+            }
+        }
+
+        grunt.verbose.writeln("Using mode=\"" + options.mode + "\"...");
+        var actionHandler = "VERIFY_ONLY" === options.mode ? verifyActionHandler : verifyAndWriteActionHandler,
+            config = getConfig();
+
+<span class="apidocCodeCommentSpan">        /** Add new line for js file unless specified as false */
+</span>        addJsNewLine = config.js.end_with_newline !== false;
+
+        jsBeautifyVersion(options.jsBeautifyVersion, function(error) {
+            if (error) {
+                grunt.fail.fatal("Unable to update js-beautify version to " + options.jsBeautifyVersion + " due to \n" + error);
+                return done(error);
+            }
+            var q = async.queue(function(src, callback) {
+                if (grunt.file.isDir(src)) {
+                    callback();
+                    return;
+                }
+
+                beautify(src, config, actionHandler);
+                fileCount++;
+                callback();
+            }, 10);
+
+            q.drain = function() {
+                if (unVerifiedFiles.length) {
+                    grunt.fail.warn("The following files are not beautified:\n" + unVerifiedFiles.join("\n").cyan + "\n");
+                }
+                grunt.log.write("Beautified " + fileCount.toString().cyan + " files, changed " + changedFileCount.toString().cyan ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * Static method for registering an instance of the task with Grunt.
+ *
+ * @param {*} grunt
+ */
+JsBeautifierTask.registerWithGrunt = function(grunt) {
+grunt.registerMultiTask("jsbeautifier", "jsbeautifier.org for grunt", function() {
+    var task = new JsBeautifierTask(this);
+    task.<span class="apidocCodeKeywordSpan">run</span>();
+});
+};
+
+function getFileType(file, config) {
+var fileType = null,
+    fileMapping = {
+        "js": config.js.fileTypes,
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
