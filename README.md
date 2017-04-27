@@ -1,6 +1,6 @@
 # npmdoc-grunt-jsbeautifier
 
-#### api documentation for  [grunt-jsbeautifier (v0.2.13)](https://github.com/vkadam/grunt-jsbeautifier)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jsbeautifier.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jsbeautifier) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jsbeautifier.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jsbeautifier)
+#### basic api documentation for  [grunt-jsbeautifier (v0.2.13)](https://github.com/vkadam/grunt-jsbeautifier)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-jsbeautifier.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-jsbeautifier) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-jsbeautifier.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-jsbeautifier)
 
 #### jsbeautifier.org for grunt
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "grunt test -v"
     },
-    "version": "0.2.13"
+    "version": "0.2.13",
+    "bin": {}
 }
 ```
 
