@@ -192,7 +192,19 @@
         task.run();
     });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/*jshint -W030*/
+describe("Register task", function() {
+
+    it("should register itself with Grunt", function() {
+        expect(JsBeautifierTask.registerWithGrunt).to.exist;
+        grunt.task._tasks.jsbeautifier = undefined;
+
+        JsBeautifierTask.<span class="apidocCodeKeywordSpan">registerWithGrunt</span>(grunt);
+        expect(grunt.task._tasks.jsbeautifier).to.exist;
+    });
+});
+...</pre></li>
     </ul>
 
 

@@ -1,58 +1,58 @@
 <svg height="878" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="878" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-18 17:55:33 +0000    44622 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-18 17:55:33 +0000     1507 bytes  Gruntfile.js</tspan>
-<tspan x="10" y="58">  2.  2017-04-18 17:55:33 +0000     1056 bytes  LICENSE-MIT</tspan>
-<tspan x="10" y="74">  3.  2017-04-18 17:55:33 +0000    10861 bytes  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-18 17:55:33 +0000       75 bytes  bin/grunt-jsbeautifier</tspan>
-<tspan x="10" y="106">  5.  2017-04-18 17:55:33 +0000     1124 bytes  lib/jsBeautifyVersion.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-18 17:55:33 +0000     7473 bytes  lib/jsbeautifier.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-18 17:55:33 +0000     3203 bytes  package.json</tspan>
-<tspan x="10" y="154">  8.  2017-04-18 17:55:33 +0000       82 bytes  tasks/jsbeautifier.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-18 17:55:33 +0000     1262 bytes  test/commandLineArgs_spec.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-18 17:55:33 +0000     3091 bytes  test/configFile_spec.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-18 17:55:33 +0000     1269 bytes  test/dest_spec.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-18 17:55:33 +0000     1938 bytes  test/fileMapping_spec.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-18 17:55:33 +0000       93 bytes  test/fixtures/common/been-beautified.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-18 17:55:33 +0000       92 bytes  test/fixtures/common/no-newline-beautified.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-18 17:55:33 +0000       90 bytes  test/fixtures/common/not-been-beautified.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-18 17:55:33 +0000       26 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
+<tspan x="10" y="26">  0.  2017-04-27 16:49:30 +0000    44622 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-27 16:49:30 +0000     1507 bytes  Gruntfile.js</tspan>
+<tspan x="10" y="58">  2.  2017-04-27 16:49:30 +0000     1056 bytes  LICENSE-MIT</tspan>
+<tspan x="10" y="74">  3.  2017-04-27 16:49:30 +0000    10861 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-27 16:49:30 +0000       75 bytes  bin/grunt-jsbeautifier</tspan>
+<tspan x="10" y="106">  5.  2017-04-27 16:49:30 +0000     1124 bytes  lib/jsBeautifyVersion.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-27 16:49:30 +0000     7473 bytes  lib/jsbeautifier.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-27 16:49:30 +0000     3203 bytes  package.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-27 16:49:30 +0000       82 bytes  tasks/jsbeautifier.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-27 16:49:30 +0000     1262 bytes  test/commandLineArgs_spec.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-27 16:49:30 +0000     3091 bytes  test/configFile_spec.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-27 16:49:30 +0000     1269 bytes  test/dest_spec.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-27 16:49:30 +0000     1938 bytes  test/fileMapping_spec.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-27 16:49:30 +0000       93 bytes  test/fixtures/common/been-beautified.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-27 16:49:30 +0000       92 bytes  test/fixtures/common/no-newline-beautified.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-27 16:49:30 +0000       90 bytes  test/fixtures/common/not-been-beautified.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-27 16:49:30 +0000       26 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
 <tspan x="10" y="298">css</tspan>
-<tspan x="10" y="314"> 17.  2017-04-18 17:55:33 +0000      125 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
+<tspan x="10" y="314"> 17.  2017-04-27 16:49:30 +0000      125 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
 <tspan x="10" y="330">html</tspan>
-<tspan x="10" y="346"> 18.  2017-04-18 17:55:33 +0000       64 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
+<tspan x="10" y="346"> 18.  2017-04-27 16:49:30 +0000       64 bytes  test/fixtures/configFile/expected/test_expected.\</tspan>
 <tspan x="10" y="362">js</tspan>
-<tspan x="10" y="378"> 19.  2017-04-18 17:55:33 +0000       30 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
+<tspan x="10" y="378"> 19.  2017-04-27 16:49:30 +0000       30 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
 <tspan x="10" y="394">ptions/test_expected.css</tspan>
-<tspan x="10" y="410"> 20.  2017-04-18 17:55:33 +0000      137 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
+<tspan x="10" y="410"> 20.  2017-04-27 16:49:30 +0000      137 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
 <tspan x="10" y="426">ptions/test_expected.html</tspan>
-<tspan x="10" y="442"> 21.  2017-04-18 17:55:33 +0000       64 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
+<tspan x="10" y="442"> 21.  2017-04-27 16:49:30 +0000       64 bytes  test/fixtures/configFile/expected/withGruntFileO\</tspan>
 <tspan x="10" y="458">ptions/test_expected.js</tspan>
-<tspan x="10" y="474"> 22.  2017-04-18 17:55:33 +0000       98 bytes  test/fixtures/configFile/jsbeautifyrc.json</tspan>
-<tspan x="10" y="490"> 23.  2017-04-18 17:55:33 +0000       21 bytes  test/fixtures/configFile/jsbeautifyrc_flat.json</tspan>
-<tspan x="10" y="506"> 24.  2017-04-18 17:55:33 +0000       21 bytes  test/fixtures/configFile/test.css</tspan>
-<tspan x="10" y="522"> 25.  2017-04-18 17:55:33 +0000      122 bytes  test/fixtures/configFile/test.html</tspan>
-<tspan x="10" y="538"> 26.  2017-04-18 17:55:33 +0000       58 bytes  test/fixtures/configFile/test.js</tspan>
-<tspan x="10" y="554"> 27.  2017-04-18 17:55:33 +0000       29 bytes  test/fixtures/fileMapping/expected/beautified.cs\</tspan>
+<tspan x="10" y="474"> 22.  2017-04-27 16:49:30 +0000       98 bytes  test/fixtures/configFile/jsbeautifyrc.json</tspan>
+<tspan x="10" y="490"> 23.  2017-04-27 16:49:30 +0000       21 bytes  test/fixtures/configFile/jsbeautifyrc_flat.json</tspan>
+<tspan x="10" y="506"> 24.  2017-04-27 16:49:30 +0000       21 bytes  test/fixtures/configFile/test.css</tspan>
+<tspan x="10" y="522"> 25.  2017-04-27 16:49:30 +0000      122 bytes  test/fixtures/configFile/test.html</tspan>
+<tspan x="10" y="538"> 26.  2017-04-27 16:49:30 +0000       58 bytes  test/fixtures/configFile/test.js</tspan>
+<tspan x="10" y="554"> 27.  2017-04-27 16:49:30 +0000       29 bytes  test/fixtures/fileMapping/expected/beautified.cs\</tspan>
 <tspan x="10" y="570">s.erb</tspan>
-<tspan x="10" y="586"> 28.  2017-04-18 17:55:33 +0000      131 bytes  test/fixtures/fileMapping/expected/beautified.ht\</tspan>
+<tspan x="10" y="586"> 28.  2017-04-27 16:49:30 +0000      131 bytes  test/fixtures/fileMapping/expected/beautified.ht\</tspan>
 <tspan x="10" y="602">ml.erb</tspan>
-<tspan x="10" y="618"> 29.  2017-04-18 17:55:33 +0000       88 bytes  test/fixtures/fileMapping/expected/beautified.js\</tspan>
+<tspan x="10" y="618"> 29.  2017-04-27 16:49:30 +0000       88 bytes  test/fixtures/fileMapping/expected/beautified.js\</tspan>
 <tspan x="10" y="634">.erb</tspan>
-<tspan x="10" y="650"> 30.  2017-04-18 17:55:33 +0000       21 bytes  test/fixtures/fileMapping/not-beautified.css.erb</tspan>
-<tspan x="10" y="666"> 31.  2017-04-18 17:55:33 +0000      126 bytes  test/fixtures/fileMapping/not-beautified.html.er\</tspan>
+<tspan x="10" y="650"> 30.  2017-04-27 16:49:30 +0000       21 bytes  test/fixtures/fileMapping/not-beautified.css.erb</tspan>
+<tspan x="10" y="666"> 31.  2017-04-27 16:49:30 +0000      126 bytes  test/fixtures/fileMapping/not-beautified.html.er\</tspan>
 <tspan x="10" y="682">b</tspan>
-<tspan x="10" y="698"> 32.  2017-04-18 17:55:33 +0000       86 bytes  test/fixtures/fileMapping/not-beautified.js.erb</tspan>
-<tspan x="10" y="714"> 33.  2017-04-18 17:55:33 +0000       70 bytes  test/fixtures/verifyMode/been-beautified.js</tspan>
-<tspan x="10" y="730"> 34.  2017-04-18 17:55:33 +0000       21 bytes  test/fixtures/verifyMode/not-been-beautified.css</tspan>
-<tspan x="10" y="746"> 35.  2017-04-18 17:55:33 +0000       63 bytes  test/fixtures/verifyMode/not-been-beautified.js</tspan>
-<tspan x="10" y="762"> 36.  2017-04-18 17:55:33 +0000     1386 bytes  test/force_spec.js</tspan>
-<tspan x="10" y="778"> 37.  2017-04-18 17:55:33 +0000      910 bytes  test/generic_spec.js</tspan>
-<tspan x="10" y="794"> 38.  2017-04-18 17:55:33 +0000     1293 bytes  test/jsoptions_spec.js</tspan>
-<tspan x="10" y="810"> 39.  2017-04-18 17:55:33 +0000      550 bytes  test/mockTask.js</tspan>
-<tspan x="10" y="826"> 40.  2017-04-18 17:55:33 +0000     1843 bytes  test/mode_spec.js</tspan>
-<tspan x="10" y="842"> 41.  2017-04-18 17:55:33 +0000     3503 bytes  test/rcFile_spec.js</tspan>
-<tspan x="10" y="858"> 42.  2017-04-18 17:55:33 +0000      520 bytes  test/registerTask_spec.js</tspan>
+<tspan x="10" y="698"> 32.  2017-04-27 16:49:30 +0000       86 bytes  test/fixtures/fileMapping/not-beautified.js.erb</tspan>
+<tspan x="10" y="714"> 33.  2017-04-27 16:49:30 +0000       70 bytes  test/fixtures/verifyMode/been-beautified.js</tspan>
+<tspan x="10" y="730"> 34.  2017-04-27 16:49:30 +0000       21 bytes  test/fixtures/verifyMode/not-been-beautified.css</tspan>
+<tspan x="10" y="746"> 35.  2017-04-27 16:49:30 +0000       63 bytes  test/fixtures/verifyMode/not-been-beautified.js</tspan>
+<tspan x="10" y="762"> 36.  2017-04-27 16:49:30 +0000     1386 bytes  test/force_spec.js</tspan>
+<tspan x="10" y="778"> 37.  2017-04-27 16:49:30 +0000      910 bytes  test/generic_spec.js</tspan>
+<tspan x="10" y="794"> 38.  2017-04-27 16:49:30 +0000     1293 bytes  test/jsoptions_spec.js</tspan>
+<tspan x="10" y="810"> 39.  2017-04-27 16:49:30 +0000      550 bytes  test/mockTask.js</tspan>
+<tspan x="10" y="826"> 40.  2017-04-27 16:49:30 +0000     1843 bytes  test/mode_spec.js</tspan>
+<tspan x="10" y="842"> 41.  2017-04-27 16:49:30 +0000     3503 bytes  test/rcFile_spec.js</tspan>
+<tspan x="10" y="858"> 42.  2017-04-27 16:49:30 +0000      520 bytes  test/registerTask_spec.js</tspan>
 </text>
 </svg>
